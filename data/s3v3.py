@@ -24,5 +24,5 @@ paisley_ties = filter_col_by_string(data_from_csv, "print", "_paisley")
 #print("Found {} print ties".format(number_of_records(print_ties)))
 #print("Found {} paisley ties".format(number_of_records(paisley_ties)))
 
-print(message.format("Average", "paisley", find_average(paisley_ties, True)))
-print(message.format("Average", "striped", find_average(striped_ties, True)))
+#print(message.format("Average", "paisley", find_average(paisley_ties, True)))
+#print(message.format("Average", "striped", find_average(striped_ties, True)))
